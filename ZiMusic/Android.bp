@@ -1,0 +1,10 @@
+android_app_import {
+    name: "ZiMusic",
+    apk: "ZiMusic.apk",
+    presigned: true, 
+    privileged: true,
+    dex_preopt: {
+        enabled: true,
+    },
+    product_specific: true,
+}
